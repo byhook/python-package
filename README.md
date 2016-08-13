@@ -15,7 +15,7 @@
   大致思路是，可以将我们的apk包看成是一个zip压缩包，app在初始化运行的时候，读取压缩包里META-INF下的配置文件名区分渠道，然后写入自己的配置文件中，下次直接从配置文件里读取(当然，这里先不考虑不同渠道包覆盖安装的问题哈...)
   所以使用python的脚本，可以直接向我们事先生成好的apk包里的META-INF目录添加配置文件即可，实现难度不大，但是最先想到这种方案的确实高明。
   笔者略改动的脚本
-```
+```python
 #!/usr/bin/python
 # coding=utf-8
 import zipfile
@@ -79,7 +79,7 @@ for src_apk in src_apks:
 ```
 
 笔者的工作系统是Linux系统，Shell脚本也同样方便简单，所以翻译成Shell脚本的形式
-```
+```shell
 #!/bin/bash
  
 
