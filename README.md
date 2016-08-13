@@ -1,6 +1,7 @@
 **目录**
 - [简介](#简介)
 - [方案](#方案)
+- [源码](#源码)
 - [参考](#参考)
 
 ###简介
@@ -124,8 +125,10 @@ done
 ![](http://upload-images.jianshu.io/upload_images/2006464-20d2f78eba4eee9f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 执行相应的脚本命令
+
 ![](http://upload-images.jianshu.io/upload_images/2006464-90a4924d9cb52df1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-
+###源码
+https://github.com/byhook/PackageRun
 ###参考
 http://tech.meituan.com/mt-apk-packaging.html
